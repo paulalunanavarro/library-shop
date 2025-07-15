@@ -1,0 +1,30 @@
+# Virtual env
+venv/
+__pycache__/
+*.py[cod]
+
+# Django files
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+.env
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+*/migrations/*.sqlite3
+
+# Static files
+staticfiles/
+media/
